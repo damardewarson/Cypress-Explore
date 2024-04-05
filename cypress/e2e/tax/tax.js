@@ -25,3 +25,6 @@ Then('Agent input {string} number and validate error {string}', (npwpNumber, mes
         cy.get('[data-testid="form-error-no_npwp"]').should('have.text', message);
     }
 })
+
+// cy.contains('Ubah').click()
+// cy.get('[class*="bravo-wrapper"]').eq(2)
